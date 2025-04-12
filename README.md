@@ -16,7 +16,7 @@ This app lets you create, edit, delete, and view users with clean UI and passwor
 
 ## 📁 Project Structure
 
-├── public/ │ └── style.css # Global styles for all HTML pages ├── views/ │ ├── home.ejs # Landing page with user count │ ├── newuser.ejs # Form to create a new user │ ├── edituser.ejs # Form to edit existing user info │ ├── delete.ejs # Password confirmation before delete │ └── showusers.ejs # Table displaying all users ├── routes/ │ └── users.js # (Optional: if you separate routing logic) ├── app.js # Main Express server ├── schema.sql # SQL to create 'user' table in MySQL ├── package.json └── README.md
+```├── public/ │ └── style.css # Global styles for all HTML pages ├── views/ │ ├── home.ejs # Landing page with user count │ ├── newuser.ejs # Form to create a new user │ ├── edituser.ejs # Form to edit existing user info │ ├── delete.ejs # Password confirmation before delete │ └── showusers.ejs # Table displaying all users ├── routes/ │ └── users.js # (Optional: if you separate routing logic) ├── app.js # Main Express server ├── schema.sql # SQL to create 'user' table in MySQL ├── package.json └── README.md```
 
 ---
 
