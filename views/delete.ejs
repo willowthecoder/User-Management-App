@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deleting for X</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>It's sad to see you Go 👋</h1>
+    <h2><%=user.username%></h2>
+    <h2><%=user.email%></h2>
+    <form method="POST" action="/users/<%=user.id%>/?_method=DELETE">
+      <input type="password" placeholder="password" name="password" />
+      <button>Delete</button>
+    </form>
+  </body>
+</html>
